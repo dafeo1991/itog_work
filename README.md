@@ -14,3 +14,11 @@
 из этого репозитория.
 
 ![image](https://github.com/dafeo1991/itog_work/assets/118327697/36432c2c-6632-4f06-a00b-bcdbf34b488f)
+
+4. Установить и удалить deb-пакет с помощью dpkg
+
+![image](https://github.com/dafeo1991/itog_work/assets/118327697/4f714995-f8b7-4ea7-bd6c-2eb249ce2e86)
+
+5. Выложить историю команд в терминале ubuntu
+
+![image](https://github.com/dafeo1991/itog_work/assets/118327697/2cf0933f-716d-4182-b3cf-7fc4404237a7)
