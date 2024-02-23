@@ -5,3 +5,7 @@
 Переименовать файл, дав ему новое имя (Друзья человека).
 
 ![image](https://github.com/dafeo1991/itog_work/assets/118327697/ff0198f0-763a-438f-9982-85940c91a10f)
+
+2. Создать директорию, переместить файл туда.
+
+![image](https://github.com/dafeo1991/itog_work/assets/118327697/f033f89f-1062-4d5f-8316-ae1c02ac2934)
