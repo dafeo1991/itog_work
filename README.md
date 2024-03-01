@@ -176,8 +176,20 @@ public class Main {
     }
 }
 
-class Mouse extends Animal {
-    public Mouse(String name) {
+class Horse extends Animal {
+    public Horse(String name) {
+        super(name);
+    }
+}
+
+class Donkey extends Animal {
+    public Donkey(String name) {
+        super(name);
+    }
+}
+
+class Camel extends Animal {
+    public Camel(String name) {
         super(name);
     }
 }
@@ -191,7 +203,7 @@ class PetRegistry {
     private Scanner scanner = new Scanner(System.in);
 
     public void registerPet(Counter counter) {
-        System.out.print("Введите тип животного (Dog/Cat/Hamster/Mouse): ");
+        System.out.print("Введите тип животного (Dog/Cat/Hamster/Horse): ");
         String type = scanner.nextLine();
         System.out.print("Введите имя животного: ");
         String name = scanner.nextLine();
@@ -203,8 +215,12 @@ class PetRegistry {
             pet = new Cat(name);
         } else if ("Hamster".equalsIgnoreCase(type)){
             pet = new Hamster(name);
-        } else if ("Mouse".equalsIgnoreCase(type)){
-            pet = new Mouse(name);
+        } else if ("Horse".equalsIgnoreCase(type)){
+            pet = new Horse(name);
+        } else if ("Donkey".equalsIgnoreCase(type)){
+            pet = new Donkey(name);
+        } else if ("Camel".equalsIgnoreCase(type)){
+            pet = new Camel(name);
         }
         if (pet != null) {
             pets.add(pet);
